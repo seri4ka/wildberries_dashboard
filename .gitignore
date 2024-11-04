@@ -1,0 +1,51 @@
+# Системные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Среда разработки
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Окружение и зависимости
+env/
+venv/
+*.egg-info/
+*.eggs
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Конфигурация и секретные данные
+.env
+config.yaml
+
+# Логи
+logs/
+*.log
+
+# Данные
+data/raw/
+data/processed/
+
+# Кэш и временные файлы
+*.sqlite3
+*.db
+*.tmp
+*.swp
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Библиотеки и бинарные файлы
+bin/
+lib/
+lib64/
+__pycache__/
+
+# Docker
+*.pid
+docker-compose.override.yml
